@@ -4,7 +4,7 @@ public class Profile {
     private String name;
     private int height;
     private int weight;
-    //private <Taso>
+    //private <Taso> taso
 
 
     public Profile(String name, int height, int weight) {
