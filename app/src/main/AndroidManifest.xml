@@ -10,15 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReenisApp">
         <activity
+            android:name=".WorkoutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_workout"
+            android:theme="@style/Theme.ReenisApp.NoActionBar" />
+        <activity
             android:name=".ProfileActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_profile"
-            android:theme="@style/Theme.ReenisApp.Fullscreen"></activity>
+            android:theme="@style/Theme.ReenisApp.Fullscreen" />
         <activity
             android:name=".FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.ReenisApp.Fullscreen">
+            android:exported="true"
+            android:theme="@style/Theme.ReenisApp.Fullscreen" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="ReenisApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

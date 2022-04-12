@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Elias Isopahkala/AndroidStudioProjects/reenis/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.23560910307898258" />
+        <entry key="..\:/Users/Elias Isopahkala/AndroidStudioProjects/reenis/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.26400273224043713" />
+        <entry key="..\:/Users/Elias Isopahkala/AndroidStudioProjects/reenis/app/src/main/res/layout/activity_fullscreen.xml" value="0.3500905797101449" />
+        <entry key="..\:/Users/Elias Isopahkala/AndroidStudioProjects/reenis/app/src/main/res/layout/activity_main.xml" value="0.3500905797101449" />
+        <entry key="..\:/Users/Elias Isopahkala/AndroidStudioProjects/reenis/app/src/main/res/layout/activity_profile.xml" value="0.3500905797101449" />
+        <entry key="..\:/Users/Elias Isopahkala/AndroidStudioProjects/reenis/app/src/main/res/layout/activity_statistics.xml" value="0.3500905797101449" />
+        <entry key="..\:/Users/Elias Isopahkala/AndroidStudioProjects/reenis/app/src/main/res/layout/activity_workout.xml" value="0.3500905797101449" />
+        <entry key="..\:/Users/Elias Isopahkala/AndroidStudioProjects/reenis/app/src/main/res/layout/content_scrolling.xml" value="1.0" />
+        <entry key="..\:/Users/Elias Isopahkala/AndroidStudioProjects/reenis/app/src/main/res/layout/content_workout.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/Elias Isopahkala/AndroidStudioProjects/reenis/app/src/main/res/layout/fragment_first.xml" value="0.2609375" />
+        <entry key="..\:/Users/Elias Isopahkala/AndroidStudioProjects/reenis/app/src/main/res/layout/fragment_second.xml" value="0.2609375" />
+        <entry key="..\:/Users/Elias Isopahkala/AndroidStudioProjects/reenis/app/src/main/res/menu/menu_statistics.xml" value="0.2609375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
