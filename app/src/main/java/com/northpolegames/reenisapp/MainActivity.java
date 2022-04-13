@@ -9,8 +9,8 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button workoutViewButton;
-    private Button profileViewButton;  // TEMPORARY TEST BUTTON
+    private Button workoutViewButton;   // Opens workout activity
+    private Button profileViewButton;   // TEMPORARY TEST BUTTON
     // private Button statisticsViewButton;
 
     @Override
@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Button opens workout activity
         workoutViewButton = findViewById(R.id.workoutViewButton);
         workoutViewButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+        //Button opens profile activity (temporary)
         profileViewButton = findViewById(R.id.profileViewButton);
         profileViewButton.setOnClickListener(new View.OnClickListener(){
             @Override
