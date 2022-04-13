@@ -41,10 +41,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reenis"
+        android:textColor="#000000"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/workoutViewButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:textColor="#000000"
-        tools:textSize="34sp" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
