@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReenisApp">
         <activity
+            android:name=".CreateProfileActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_create_profile"
+            android:theme="@style/Theme.ReenisApp.Fullscreen" />
+        <activity
             android:name=".WorkoutActivity"
             android:exported="false"
             android:label="@string/title_activity_workout"
