@@ -5,7 +5,7 @@
     android:id="@+id/newUsername"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/whitebackground"
+    android:background="@drawable/backgroundgrey"
 
     tools:context=".ProfileActivity">
 
@@ -14,19 +14,23 @@
         android:id="@+id/heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Valitse profiilisi:"
-        android:textColor="#000000"
+        android:text="Valitse Profiilli:"
+        android:textColor="#D1A55C"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#D1A55C"
         android:text="Profiili1"
+        android:textColor="#2B2C30"
         app:layout_constraintBottom_toTopOf="@+id/switchToCreateNewBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -38,11 +42,14 @@
         android:id="@+id/switchToCreateNewBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#D1A55C"
         android:text="Luo uusi profiili"
+        android:textColor="#2B2C30"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775" />
 
     <ImageButton
         android:id="@+id/backBtn"
@@ -50,6 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
+        android:backgroundTint="#D1A55C"
         android:src="?attr/homeAsUpIndicator"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
