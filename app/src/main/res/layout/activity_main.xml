@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgroundgrey"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/workoutViewButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#D1A55C"
         android:text="SAVE WORKOUT"
+        android:textColor="#2B2C30"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +24,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:backgroundTint="#D1A55C"
         android:text="Profile menu"
+        android:textColor="#2B2C30"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/workoutViewButton" />
@@ -31,7 +36,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:backgroundTint="#D1A55C"
         android:text="VIEW STATISTICS"
+        android:textColor="#2B2C30"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profileViewButton" />
@@ -41,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reenis"
-        android:textColor="#000000"
+        android:textColor="#D1A55C"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/workoutViewButton"
         app:layout_constraintEnd_toEndOf="parent"
