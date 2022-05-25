@@ -1,9 +1,11 @@
 package com.northpolegames.reenisapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -14,6 +16,7 @@ import com.northpolegames.reenisapp.databinding.FragmentFirstBinding;
 public class FirstFragment extends Fragment {
 
     private FragmentFirstBinding binding;
+    private ImageButton back;
 
     @Override
     public View onCreateView(
@@ -25,6 +28,7 @@ public class FirstFragment extends Fragment {
         return binding.getRoot();
 
     }
+
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
